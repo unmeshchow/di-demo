@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
  * Created by uc on 9/10/2019
  */
 @Service
+@Profile("de")
 @Primary
-@Profile({"default", "en"})
-public class PrimaryGreetingService implements GreetingService {
+public class PrimaryGermanGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
-        return "Hello - from the primary service";
+        return "Primärer Begrüßungsdienst";
     }
 }
