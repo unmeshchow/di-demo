@@ -1,0 +1,31 @@
+# comment
+name: Unmesh
+
+names: #comment
+  - Unmesh
+  - Anup
+  - Bristi
+
+pound_sign: "#"
+
+book:
+  author: Joe Buck
+  publisher: Random
+
+truth: yes # true, TRUE
+
+false: no # false, FALSE
+
+string_val: "It's a quotes"
+
+colon_string: "my colon: is good"
+
+include_new_lines: |
+  adbs dddf asdgf
+  adbs dddf asdgf
+  adbs dddf asdgf
+
+ignore_new_lines: >
+  this is
+  just one long
+  string

@@ -1,0 +1,6 @@
+# Jms Broker Properties
+guru:
+  jms:
+    username: My Username
+    password: somepass
+    url: someurl
