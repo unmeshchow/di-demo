@@ -4,18 +4,11 @@ import guru.springframework.didemo.examplebeans.FakeJmsBroker;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.annotation.PropertySources;
 
 /**
  * Created by uc on 9/15/2019
  */
 @Configuration
-//@PropertySource("classpath:jms.properties")
-@PropertySources({
-        @PropertySource("classpath:jms.properties"),
-        @PropertySource("classpath:author.properties")
-})
 public class JmsBrokerConfig {
 
     @Value("${guru.author}")
